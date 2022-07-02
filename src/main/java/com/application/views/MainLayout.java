@@ -2,7 +2,7 @@ package com.application.views;
 
 
 import com.application.views.home.HomeView;
-import com.application.views.settings.MapView;
+import com.application.views.map.MapView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
@@ -11,6 +11,7 @@ import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.html.*;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.RouterLink;
+
 
 /**
  * The main view is a top-level placeholder for other views.

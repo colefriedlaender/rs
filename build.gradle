@@ -17,25 +17,14 @@ repositories {
 }
 
 dependencies {
-    //implementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation 'org.springframework.boot:spring-boot-starter'
-    //implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-validation'
-    //testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    implementation 'com.vaadin:vaadin-spring-boot-starter'
-    //implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    //compile 'org.springframework.boot:spring-boot-devtools:2.7.0'
-    compileOnly("org.springframework.boot:spring-boot-devtools")
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter:2.7.0'
+    implementation 'org.springframework.boot:spring-boot-starter-validation:2.7.0'
+    implementation 'com.vaadin:vaadin-spring-boot-starter:23.1.0'
+    compileOnly('org.springframework.boot:spring-boot-devtools:2.7.0')
 }
 
-/*dependencies {
-    compile "com.vaadin:vaadin-bom:${vaadin.version}"
-    compile "com.vaadin:vaadin:*"
-    compile "com.vaadin:vaadin-spring-boot-starter:*"
-    compile "org.springframework.boot:spring-boot-starter-validation:*"
-    testCompile "org.springframework.boot:spring-boot-starter-test:*"
-
-}*/
 
 sourceSets {
     main {
