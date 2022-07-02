@@ -1,8 +1,8 @@
-package com.application.views;
+package com.application.frontend;
 
 
-import com.application.views.home.HomeView;
-import com.application.views.map.MapView;
+import com.application.frontend.home.HomeView;
+import com.application.frontend.map.MapView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;

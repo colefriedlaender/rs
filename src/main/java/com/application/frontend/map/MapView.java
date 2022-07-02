@@ -1,6 +1,6 @@
-package com.application.views.map;
+package com.application.frontend.map;
 
-import com.application.views.MainLayout;
+import com.application.frontend.MainLayout;
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Paragraph;

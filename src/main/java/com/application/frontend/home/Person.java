@@ -1,4 +1,4 @@
-package com.application.views.home;
+package com.application.frontend.home;
 
 public class Person {
 

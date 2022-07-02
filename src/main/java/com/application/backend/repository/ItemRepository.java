@@ -1,11 +1,10 @@
-package com.application.repository;
+package com.application.backend.repository;
 
 
-import com.application.model.RestaurantItems;
+import com.application.backend.model.RestaurantItems;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 
-import java.util.Arrays;
 import java.util.List;
 
 public interface ItemRepository extends MongoRepository<RestaurantItems, String> {

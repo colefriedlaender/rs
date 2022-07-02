@@ -1,6 +1,6 @@
-package com.application.views.home;
+package com.application.frontend.home;
 
-import com.application.views.MainLayout;
+import com.application.frontend.MainLayout;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.grid.Grid;
